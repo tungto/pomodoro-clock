@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  margin-top: 16%;
+}
+.ControlBoards {
+  display: flex;
+  justify-content: center;
+}
+.control-board {
+  margin: 50px;
+}
+.length-control {
+  display: flex;
+  align-items: center;
+}
+.length-control p {
+  font-size: 1.5em;
+}
+button {
+  border: none;
+  background-color: aliceblue;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 2em;
+}
+button:hover,
+button:active {
+  cursor: pointer;
+}
